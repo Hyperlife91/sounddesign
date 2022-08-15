@@ -1,0 +1,245 @@
+html{
+    background-image: linear-gradient(#645d3f,#a0480d);
+}
+
+p{
+    font-family: Bombardier;
+}
+
+a{
+    font-family: Bombardier;
+}
+
+nav{
+    display: flex;
+    background-color: #283845;
+    padding: 20px;
+    border: #202C39 solid 10px;
+    justify-content: space-evenly;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    background-color: #283845;
+    padding: 20px;
+    border: #202C39 solid 10px;
+    border-radius: 12px 12px 0px 0px;
+    justify-content: space-evenly;
+}
+
+footer a{
+    flex: 1;
+    background-color: #202C39;
+    margin: 10px;
+    border: #bea815 solid 5px;
+    text-decoration: none;
+    color: #F29559;
+    text-align: center;
+    font-size: 250%;
+}
+
+nav a{
+    background-color: #202C39;
+    margin: 5px;
+    padding: 10px;
+    border: #bea815 solid 5px;
+    text-decoration: none;
+    color: #F29559;
+    flex: 1;
+    font-size: 150%;
+    text-align: center;
+}
+
+header{
+    font-size: 200%;
+    background-image: linear-gradient(#B8B08D,#F2D492);
+    padding: 10px;
+    border: #202C39 solid 10px;
+    border-top: 0px;
+    border-radius: 0px 0px 12px 12px;
+    text-align: center;
+}
+
+header p{
+    font-family: hk;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 0px 5px 3px #000000;
+    font-size: 150%;
+}
+
+main{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    font-size: 150%;
+    background-image: linear-gradient(#F2D492,#F29559, #F39F68);
+    padding: 20px;
+    margin-top: 0px;
+    border-left: #202C39 solid 10px;
+    border-bottom: #202C39 solid 10px;
+    border-right: #202C39 solid 10px;
+    border-radius: 0px 0px 24px 24px;
+}
+
+main article{
+    margin: 10px;
+    border: #202C39 solid 10px;
+    border-radius: 12px;
+    background-image: linear-gradient(#ffffff33,#ffffffaa);
+}
+
+.intro{
+    height: 500px;
+    background-image: linear-gradient(#ffffff99,#ffffff), url(img/fmod.png);
+}
+
+.OST{
+    background-image: linear-gradient(#ffffff00,#ffffff), url(img/OST.PNG);
+    background-size: cover;
+    height: 250px;
+    background-position: center;
+}
+
+.SFX{
+    background-image: linear-gradient(#ffffff00,#ffffff), url(img/SFX.PNG);
+    background-size: cover;
+}
+
+.Scapes{
+    background-image: linear-gradient(#ffffff00,#ffffff), url(img/Scapes.PNG);
+    background-position-x: 85%;
+    background-position-y: center;
+    background-size: cover;
+}
+
+.hk{
+    background-image: linear-gradient(#c6ff6a44,#ffffff00,#ffffff22,#c6ff6a88), linear-gradient(to right,#c6ff6a44,#ffffff00,#ffffff00,#c6ff6a44), linear-gradient(#ffffff00,#ffffff55), url(img/hk.png);
+    background-size: cover;
+    background-position-y: 60%;
+    height: 300px;
+}
+
+.hkost{
+    background-image: linear-gradient(#ffffff00,#ffffff), url(img/hkost.PNG);
+    background-size: cover;
+    background-position-y: center;
+}
+
+.hkamb{
+    background-image: linear-gradient(#ffffff00,#ffffff), url(img/hkamb.PNG);
+    background-size: cover;
+    background-position-y: center;
+}
+
+.row{
+    flex-direction: row;
+    flex-basis: auto;
+    justify-content: center;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.around{
+    justify-content: space-around;
+}
+
+.even{
+    justify-content: space-evenly;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex1{
+    flex: 1;
+}
+
+.previewtext{
+    color: #6d6d6d;
+}
+
+.celeste{
+    background-image: linear-gradient(#ffffff00,#ffffff), url(img/Celeste.png);
+    background-position-x: 85%;
+    background-position-y: top;
+    background-size: cover;
+    color: #621212;
+}
+
+article h2{
+    color: #dd0033;
+    font-family: hk;
+    text-shadow: 0px 2px 2px #550000;
+}
+
+h3{
+    font-family: Bombardier;
+}
+
+ul{
+    text-align: left;
+    font-family: Bombardier;
+}
+
+ul a{
+    text-decoration: none;
+    color: #aa0111;
+    -webkit-transition: color 0s;
+    transition: color 0s;
+}
+
+ul a:hover {
+    color: #440000;
+}
+
+.ror{
+    background-image: linear-gradient(#ffffff00,#ffffff), url(img/ror2.png);
+    background-position-x: 85%;
+    background-position-y: top;
+    background-size: cover;
+    color: #621212;
+}
+
+.Terraria{
+    background-image: linear-gradient(#ffffff44,#ffffff), url(img/Terraria.png);
+    background-position-x: 85%;
+    background-position-y: 10%;
+    background-size: cover;
+    color: #621212;
+}
+
+.score{
+    color: #dd0033;
+    font-size: 200%;
+    text-decoration: underline overline;
+}
+
+.hkscore{
+    font-size: 300%;
+}
+
+span{
+    font-style: italic;
+    font-family: monospace;
+    background-color: #6d6d6d44;
+}
+
+@font-face {
+    font-family: Determination;
+    src: url("DTM-Mono.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Bombardier;
+    src: url("Bombardier-Regular.ttf");
+}
+
+@font-face {
+    font-family: hk;
+    src: url("Trajan Pro Regular.ttf");
+}
